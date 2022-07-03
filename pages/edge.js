@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
 import { Benchmarker } from "../components/benchmarker";
 
-const Home: NextPage = () => {
+const Home = () => {
   return <Benchmarker>Edge</Benchmarker>;
 };
 
