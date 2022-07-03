@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { Benchmarker } from "../components/benchmarker";
 
-const Home: NextPage = () => {
+const Edge: NextPage = () => {
   return <Benchmarker>Edge</Benchmarker>;
 };
 
-export default Home;
+export default Edge;
 
 export const getServerSideProps = () => {
   return { props: { message: new Date().toString() } };
