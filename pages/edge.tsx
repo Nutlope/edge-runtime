@@ -10,7 +10,3 @@ export default Home;
 export const getServerSideProps = () => {
   return { props: { message: new Date().toString() } };
 };
-
-export const config = {
-  unstable_runtimeJS: false,
-};
