@@ -1,8 +1,7 @@
 import type { NextPage } from "next";
-import { Benchmarker } from "../components/benchmarker";
 
 const Edge: NextPage = () => {
-  return <Benchmarker>Edge</Benchmarker>;
+  return <div>"Edge"</div>;
 };
 
 export default Edge;
