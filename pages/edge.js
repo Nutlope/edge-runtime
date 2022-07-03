@@ -1,10 +1,6 @@
-import { Benchmarker } from "../components/benchmarker";
-
-const Home = () => {
-  return <Benchmarker>Edge</Benchmarker>;
-};
-
-export default Home;
+export default function Edge() {
+  return <div>Edge</div>;
+}
 
 export const getServerSideProps = () => {
   return { props: { message: "hi" } };
