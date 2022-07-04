@@ -2,6 +2,6 @@ export default function Edge() {
   return <div>Another</div>;
 }
 
-export async function getServerSideProps() {
+export const getServerSideProps = async () => {
   return { props: { runtime: "hi there" } };
-}
+};
