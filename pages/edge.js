@@ -1,5 +1,5 @@
-export default function Edge({ runtime }) {
-  return <div>Another {runtime}</div>;
+export default function Edge() {
+  return <div>Another</div>;
 }
 
 export async function getServerSideProps() {
