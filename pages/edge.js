@@ -1,4 +1,4 @@
-export default function Another({ runtime }) {
+export default function Edge({ runtime }) {
   return <div>Another {runtime}</div>;
 }
 
