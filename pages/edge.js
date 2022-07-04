@@ -2,10 +2,12 @@ export default function Edge() {
   return <div>Another</div>;
 }
 
+// this doesn't work
 export const getServerSideProps = async () => {
-  return { props: { runtime: "hi there" } };
+  return { props: { message: "hi there" } };
 };
 
-export const config = {
-  runtime: "experimental-edge",
-};
+// this works
+// export async function getServerSideProps() {
+//   return { props: { message: "hi there } };
+// }
