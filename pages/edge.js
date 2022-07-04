@@ -5,3 +5,7 @@ export default function Edge() {
 export const getServerSideProps = async () => {
   return { props: { runtime: "hi there" } };
 };
+
+export const config = {
+  runtime: "experimental-edge",
+};
